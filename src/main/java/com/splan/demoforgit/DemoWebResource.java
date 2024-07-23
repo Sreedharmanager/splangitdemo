@@ -10,13 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class DemoWebResource {
-	
-	
-	
-//	@GetMapping("/getMessage/{name}")
-//	public ResponseEntity<?> getMessage(@PathVariable("name") String name) {
-//		return new ResponseEntity<>(" Hyy " + name, HttpStatus.OK);
-//
-//	}
+
+	@GetMapping("/getMessage/{name}")
+	public ResponseEntity<?> getMessage(@PathVariable("name") String name) {
+		return new ResponseEntity<>(" Hi Welcome to Splan Family " + name, HttpStatus.OK);
+
+	}
 
 }

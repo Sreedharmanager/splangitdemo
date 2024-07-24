@@ -1,0 +1,11 @@
+# Default reviewers for the entire repository
+* @username
+
+# Reviewers for the 'src' directory
+/src/ @username
+
+# Reviewers for a specific file in the root directory
+/pom.xml @username
+
+# Reviewers for all Java files
+*.java @username

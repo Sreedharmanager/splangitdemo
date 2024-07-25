@@ -13,7 +13,7 @@ public class DemoWebResource {
 
 	@GetMapping("/getMessage/{name}")
 	public ResponseEntity<?> getMessage(@PathVariable("name") String name) {
-		return new ResponseEntity<>(" Hi Welcome to India1 " + name, HttpStatus.OK);
+		return new ResponseEntity<>(" Hi Welcome to SPlan " + name, HttpStatus.OK);
 
 	}
 
